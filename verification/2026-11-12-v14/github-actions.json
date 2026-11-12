@@ -1,0 +1,168 @@
+{
+  "repository": "AbdElrhmanAhmed7/NovaAPI-v14",
+  "commit": "24dc3e6095e185b59367d1fcd8da9257d85651f6",
+  "workflow": "backend",
+  "event": "push",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-11-12T15:50:55Z",
+  "updated_at": "2026-11-12T15:54:04Z",
+  "html_url": "https://github.com/AbdElrhmanAhmed7/NovaAPI-v14/actions/runs/43252213875",
+  "jobs": [
+    {
+      "name": "pytest (offline)",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-12T15:50:59Z",
+      "completed_at": "2026-11-12T15:54:04Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run pip install -r requirements-dev.txt",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test with coverage",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "lint \u00b7 types \u00b7 content \u00b7 contract",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-12T15:50:59Z",
+      "completed_at": "2026-11-12T15:51:29Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run pip install -r requirements-dev.txt",
+          "conclusion": "success"
+        },
+        {
+          "name": "Ruff",
+          "conclusion": "success"
+        },
+        {
+          "name": "Mypy",
+          "conclusion": "success"
+        },
+        {
+          "name": "Mission content is winnable",
+          "conclusion": "success"
+        },
+        {
+          "name": "Route audit (guards, typed responses, security)",
+          "conclusion": "success"
+        },
+        {
+          "name": "Exported OpenAPI contract is fresh",
+          "conclusion": "success"
+        },
+        {
+          "name": "Player-facing API text is English",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "name": "full campaign playthrough",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-12T15:50:59Z",
+      "completed_at": "2026-11-12T15:51:29Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@v5",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run pip install -r requirements-dev.txt",
+          "conclusion": "success"
+        },
+        {
+          "name": "Play all 15 missions over the public API",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@v5",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ]
+}

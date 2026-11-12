@@ -1,0 +1,48 @@
+# GitHub Actions – the run that proves CI is alive
+
+repo    : AbdElrhmanAhmed7/NovaAPI-v14
+commit  : 24dc3e6095e185b59367d1fcd8da9257d85651f6
+workflow: backend  (event: push)
+result  : completed / success
+url     : https://github.com/AbdElrhmanAhmed7/NovaAPI-v14/actions/runs/43252213875
+created : 2026-11-12T15:50:55Z
+
+[PASS] pytest (offline)  (2026-11-12T15:50:59Z → 2026-11-12T15:54:04Z)
+     ✓ Set up job
+     ✓ Run actions/checkout@v4
+     ✓ Run actions/setup-python@v5
+     ✓ Run pip install -r requirements-dev.txt
+     ✓ Test with coverage
+     ✓ Run actions/upload-artifact@v4
+     ✓ Post Run actions/setup-python@v5
+     ✓ Post Run actions/checkout@v4
+     ✓ Complete job
+
+[PASS] lint · types · content · contract  (2026-11-12T15:50:59Z → 2026-11-12T15:51:29Z)
+     ✓ Set up job
+     ✓ Run actions/checkout@v4
+     ✓ Run actions/setup-python@v5
+     ✓ Run pip install -r requirements-dev.txt
+     ✓ Ruff
+     ✓ Mypy
+     ✓ Mission content is winnable
+     ✓ Route audit (guards, typed responses, security)
+     ✓ Exported OpenAPI contract is fresh
+     ✓ Player-facing API text is English
+     ✓ Run actions/upload-artifact@v4
+     ✓ Post Run actions/setup-python@v5
+     ✓ Post Run actions/checkout@v4
+     ✓ Complete job
+
+[PASS] full campaign playthrough  (2026-11-12T15:50:59Z → 2026-11-12T15:51:29Z)
+     ✓ Set up job
+     ✓ Run actions/checkout@v4
+     ✓ Run actions/setup-python@v5
+     ✓ Run pip install -r requirements-dev.txt
+     ✓ Play all 15 missions over the public API
+     ✓ Run actions/upload-artifact@v4
+     ✓ Post Run actions/setup-python@v5
+     ✓ Post Run actions/checkout@v4
+     ✓ Complete job
+
+3 jobs · all success
